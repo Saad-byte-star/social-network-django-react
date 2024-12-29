@@ -1,0 +1,22 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track background color */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #2e2e2e; /* Scrollbar color */
+    border-radius: 15px; /* Rounded corners */
+    border: 2px solid #f1f1f1; /* Add space around the scrollbar */
+}
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: black; /* Scrollbar color on hover */
+  }
+  

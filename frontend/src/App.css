@@ -1,0 +1,42 @@
+.my-btns {
+  padding: 15px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+  width: 100%;
+  display: block;
+}
+
+.my-btns:hover {
+  background-color: rgba(171, 26, 255, 0.498);
+  font-size: 110%;
+  border-left: 5px rgba(255, 255, 255, 0.532) solid;
+  transition: background-color ease 300ms, font-size ease 300ms, border-left ease 150ms;
+}
+
+.footer>button:hover {
+  background-color: rgba(255, 26, 26, 0.498);
+  font-size: 110%;
+  border-left: 5px rgba(255, 255, 255, 0.532) solid;
+  transition: background-color ease 300ms, font-size ease 300ms, border-left ease 150ms;
+}
+
+.side-pfp {
+  width: 100px;
+}
+
+#newContent {
+  background-color: rgba(215, 191, 230, 0.498);
+  border: none;
+}
+
+#newContent:focus {
+  box-shadow: rgba(205, 172, 225, 0.498);
+  box-shadow: 0 0 0 0.2rem rgba(133, 0, 216, 0.498);
+}
+
+#search:focus {
+  box-shadow: rgba(205, 172, 225, 0.498);
+  box-shadow: 0 0 0 0.2rem rgba(133, 0, 216, 0.498);
+}
